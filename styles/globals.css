@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{ html{scroll-behavior:smooth} body{@apply bg-stone-950 text-stone-100} ::selection{background:theme(colors.leaf.500); color:black} }
+@layer components{
+  .container-outer{@apply max-w-7xl mx-auto px-4}
+  .btn{@apply inline-flex items-center gap-2 font-semibold rounded-xl px-4 py-2 bg-leaf-500 text-stone-900 hover:bg-leaf-400 transition}
+  .btn-outline{@apply inline-flex items-center gap-2 font-semibold rounded-xl px-4 py-2 border border-stone-700 hover:border-stone-500}
+  .card{@apply bg-stone-900/60 border border-stone-800 rounded-2xl p-5 shadow-soft}
+  .tag{@apply text-xs px-2 py-1 rounded-full border border-stone-700 text-stone-300}
+  .kicker{@apply uppercase tracking-widest text-xs text-stone-400}
+  .heading{@apply text-3xl md:text-4xl font-bold}
+  .subtle{@apply text-stone-400}
+  .input{@apply w-full rounded-xl bg-stone-900 border border-stone-800 px-4 py-2 outline-none focus:ring-4 focus:ring-emerald-600/20}
+  .textarea{@apply w-full rounded-xl bg-stone-900 border border-stone-800 px-4 py-3 outline-none focus:ring-4 focus:ring-emerald-600/20}
+}
