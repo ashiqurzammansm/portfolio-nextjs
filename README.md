@@ -1,4 +1,4 @@
-# portfolio-nextjs (Next.js 14 + Tailwind) — Fixed
+# portfolio-nextjs (Next.js 14 + Tailwind)
 Fully functional portfolio with split client components and no server fetch for local data.
 
 ## Run locally
@@ -16,4 +16,4 @@ npx vercel
 - Components: `components/`
 - Pages: `app/*`
 
-© 2025 Your Name
+© 2025 SM ASHIQURZAMMAN
